@@ -33,7 +33,7 @@ console.log(
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const myName = "Francesco";
+let myName = "Francesco";
 console.log("name", myName);
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
@@ -58,8 +58,12 @@ let x = 12;
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-// myName = "Sileoni";
-// console.log("const error", myName);
+myName = "Sileoni";
+console.log("surname", myName);
+// const nome = "francesco";
+// console.log("nome", nome);
+// nome = "sileoni";
+// console.log("const error", nome);
 // la keyword const crea una variabile a cui il valore non puo essere riassegnato in futuro
 
 /* ESERCIZIO 6
@@ -67,7 +71,7 @@ let x = 12;
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let subtraction = x - 4;
+let subtraction = 4 - x;
 console.log("subtraction value", subtraction);
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -78,5 +82,6 @@ console.log("subtraction value", subtraction);
 /* SCRIVI QUI LA TUA RISPOSTA */
 let name1 = "john";
 let name2 = "Jhon";
-let result = name1.toLowerCase === name2.toLowerCase();
+console.log(name1 === name2);
+let result = name1.toLowerCase === name2.toLowerCase;
 console.log(result);
